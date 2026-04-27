@@ -1,7 +1,7 @@
 --creating the dimension location table
 drop table [pc_sales_staging].[dbo].[Dim_Location]
 create table [pc_sales_staging].[dbo].[Dim_Location](
-[CustomerID] int identity (1,1) primary key,
+[LocationID] int identity (1,1) primary key,
 [Country_or_state] nvarchar (250) not null,
 [Province_or_City] nvarchar (250) not null,
 [Continent] nvarchar (250) not null,
