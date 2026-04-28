@@ -10,6 +10,6 @@ LoadDate datetime default getdate()
 insert into [pc_sales_staging].[dbo].[Dim_date] ([Ship_date],[Purchase_date])
 Select Distinct[Ship_date],[Purchase_date]
 FROM [pc_sales_staging].[dbo].[raw_pc_data];
---Testing--
+--Testing
 Select * from [pc_sales_staging].[dbo].[Dim_date] 
 

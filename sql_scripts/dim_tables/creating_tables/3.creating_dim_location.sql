@@ -11,6 +11,6 @@ loadDate datetime default getdate()
 insert into [pc_sales_staging].[dbo].[Dim_Location] (Country_or_state,Province_or_City,Continent)
 Select distinct Country_or_state,Province_or_City,Continent
 from [pc_sales_staging].[dbo].[raw_pc_data]
---Testing--
+--Testing
 select * from [pc_sales_staging].[dbo].[Dim_Location] 
 

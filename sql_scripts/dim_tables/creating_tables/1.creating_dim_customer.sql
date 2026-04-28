@@ -1,4 +1,5 @@
 -- creating the dimesion table
+drop table [pc_sales_staging].[dbo].[Dim_Customer]
 create table[pc_sales_staging].[dbo].[Dim_Customer]
 ([CustomerID] INT IDENTITY (1,1) PRIMARY KEY,
 [Customer_Name] nvarchar (250) Not Null,
