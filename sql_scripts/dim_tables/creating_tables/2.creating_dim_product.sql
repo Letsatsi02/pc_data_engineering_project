@@ -13,5 +13,5 @@ LoadDate DateTime Default getdate()
 Insert into [pc_sales_staging].[dbo].[Dim_Product] (PC_Make,PC_Model,Storage_Type,RAM,Storage_Capacity)
 Select Distinct PC_Make,PC_Model,Storage_Type,RAM,Storage_Capacity
 From [pc_sales_staging].[dbo].[raw_pc_data]
---Testing--
+--Testing
 Select * From [pc_sales_staging].[dbo].[Dim_Product]
