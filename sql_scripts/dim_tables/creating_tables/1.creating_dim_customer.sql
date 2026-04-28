@@ -13,5 +13,5 @@ Select * From [pc_sales_staging].[dbo].[Dim_Customer]
 Insert into [pc_sales_staging].[dbo].[Dim_Customer] (Customer_Name,Customer_Surname,Customer_Contact_Number,Customer_Email_Address)
 Select Distinct Customer_Name,Customer_Surname,Customer_Contact_Number,Customer_Email_Address
 from [pc_sales_staging].[dbo].[raw_pc_data]
--- Testing--
+-- Testing
 Select * From [pc_sales_staging].[dbo].[Dim_Customer]
